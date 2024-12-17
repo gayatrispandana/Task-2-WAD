@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>registration page</title>
+<style>
+form{
+font-size:20px;
+}
+input[type="text"]{
+width: 300px;
+height: 30px;
+background-color:#c8d5b9;
+border-color:#c8d5b9;
+}
+select[name="set"]{
+width:75px;
+height:30px;
+background-color:#c8d5b9;
+border-color:#c8d5b9;
+}
+input[type="submit"],input[type="reset"]{
+background-color: #006666;
+color: #FFFFFF; 
+width: 120px;
+height: 40px;
+font-size: 20px;
+border-color:#006666
+}
+</style>
+</head>
+<body>
+<form>
+<b>Student Name : <input type="text" name="sn"/>
+<br/><br/>
+Registration number : <input type="text" name="rn"/>
+<br/><br/>
+Set : </b>
+<select name="set">
+    <option value="1" selected>Set-1</option>
+    <option value="2">Set-2</option>
+    <option value="3">Set-3</option>
+    <option value="4">Set-4</option>
+</select>
+<br/><br/>
+<table border="1" cellspacing="0" style="border-color:#006666;">
+      <tr style="background-color:#006666;color:#FFFFFF;">
+        <th>Subjects</th>
+        <th>Faculty</th>
+      </tr>
+      <tr>
+         <td>programming with python</td>
+         <td>
+            <input type="radio" name="g" value="b">bhavani<br/>
+            <input type="radio" name="g" value="j">jhansi<br/>
+            <input type="radio" name="g" value="m">mounika
+         </td>
+      </tr>
+      <tr>
+         <td>web application development and software frameworks</td>
+         <td>
+            <input type="radio" name="h" value="m">madhuri<br/>
+            <input type="radio" name="h" value="v">vishnu<br/>
+            <input type="radio" name="h" value="l">lalitha
+         </td>
+      </tr>
+      <tr>
+         <td>cryptography and network security</td>
+         <td>
+            <input type="radio" name="i" value="l">lakshmeeswari<br/>
+            <input type="radio" name="i" value="m">mrudula<br/>
+            <input type="radio" name="i" value="n">nagalakshmi
+         </td>
+      </tr>
+    </table>
+<br/><br/>
+<center><input type="submit" name="s" value="submit"/>
+<input type="reset" name="r" value="reset"/></center>
+</body>
+</html>
